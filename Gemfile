@@ -37,7 +37,7 @@ gem 'rails-i18n', '~> 4.0.0'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'faker'
 gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
