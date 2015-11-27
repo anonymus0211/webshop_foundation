@@ -1,0 +1,32 @@
+hu:
+  active_admin:
+    search_status:
+      headline: 'Szűrés'
+      current_filters: 'Feltételek'
+  activerecord:
+    models:
+      category:
+        one: 'Kategória'
+        other: 'Kategóriák'
+      product:
+        one: 'Termék'
+        other: 'Termékek'
+      user:
+        one: 'Felhasználó'
+        other: 'Felhasználók'
+      review:
+        one: 'Vélemény'
+        other: 'Vélemények'
+    attributes:
+      category:
+        title: 'Kategória neve'
+      product: 
+        title: 'Termék neve'
+        price: 'Ár'
+        stock: 'Készlet'
+        product_picture: 'Termék képe'
+        description: 'Leírás' 
+      user:
+        email: 'Email'
+
+
