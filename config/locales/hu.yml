@@ -1,4 +1,11 @@
 hu:
+  our_newest_products: 'Legújabb termékeink'
+  other_products: 'Még több termék'
+  buy_button: 'Megveszem'
+  sign_in_link: 'Bejelentkezés'
+  sign_out_link: 'Kijelentkezés'
+  register_link: 'Regisztráció'
+  logged_in_as: "Bejelentkezve mint %{name}"
   active_admin:
     search_status:
       headline: 'Szűrés'

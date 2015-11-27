@@ -17,17 +17,26 @@ html lang="en"
         ul.menu
           li.menu-text Webshop
           - if user_signed_in?
-            li= link_to 'Logout', destroy_user_session_path
+            li= t(:logged_in_as, name: current_user.name)
+            li= link_to t(:sign_out_link), destroy_user_session_path
           - else
-            li= link_to 'Sign In', new_user_session_path
-            li= link_to 'Register', new_user_registration_path
+            li= link_to t(:sign_in_link), new_user_session_path
+            li= link_to t(:register_link), new_user_registration_path
           li= link_to 'Admin', admin_root_path 
     == yield
     .callout.large.secondary
       .row
         .large-4.columns
-          h5 hahó
+          h5 Webshop
+          p Készítette: 
+          p EHA: 
         .large-3.columns.large-offset-2
+          ul.menu.vertical
+            li=link_to 'One', '#'
+            li=link_to 'One', '#'
+            li=link_to 'One', '#'
+            li=link_to 'One', '#'
+        .large-3.columns
           ul.menu.vertical
             li=link_to 'One', '#'
             li=link_to 'One', '#'
